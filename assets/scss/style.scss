@@ -1,0 +1,93 @@
+.login{
+    width: 90%;
+    margin: 0 5%;
+    .button{
+display: flex;
+align-items: center;
+padding: 20px 0;
+
+    }
+    .input{
+        width: 30%;
+        
+        display: flex;
+        flex-direction: column;
+        input{
+      
+            height: 40px;
+        }
+        }
+    .btn{
+        margin: 10px;
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: red;
+        }
+    }
+    .link{
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: orangered;
+            }
+        }
+    }
+}
+@media (max-width:714px) {
+    .input{
+        
+        input{
+    width: 400px;
+        }
+    }
+    
+}
+@media (max-width:1326px) {
+    .input{
+        
+        input{
+    width: 400px;
+        }
+    }
+    
+}
+@media (max-width:636px) {
+  .login{
+   
+  }
+    
+}
+@media (max-width:460px) {
+   .input{
+    input{
+        width: 300px;
+    }
+   }
+  }
+  @media (max-width:350px) {
+    .input{
+     input{
+         width: 200px;
+     }
+    }
+    .button{
+      .btn{
+        a{
+            width: 20px;
+        }
+      }
+    }
+   }
+   @media (max-width:646px) {
+    .input{
+     input{
+         width: 250px;
+     }
+    }
+   
+}
+
+    
